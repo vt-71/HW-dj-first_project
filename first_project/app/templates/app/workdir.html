@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Список файлов в рабочей директории</title>
+</head>
+<body>
+    <h2>Список файлов в рабочей директории</h2>
+    {% comment %} <p> {file_name'} </p> {% endcomment %}
+    {% for file in file_name %}
+    <h3>{{ file}}</h3>
+        {% comment %} <br> {% endcomment %}
+    {% endfor %}
+</body>
+</html>
